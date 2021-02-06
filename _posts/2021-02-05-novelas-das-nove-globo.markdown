@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Análise de audiência das novelas das nove
+title: Análise de audiência das novelas das nove na Rede Globo
 image: 13.jpg
 date: 2021-02-05 01:14:00 +0200
 tags:
