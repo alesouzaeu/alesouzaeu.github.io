@@ -847,7 +847,7 @@ corr
 
 
 
-![png](p-analytics_23_1.png)
+![png](/images/p-analytics_23_1.png)
 
 
 ### Insights
@@ -882,7 +882,7 @@ depto_abandono.plot(kind='bar',
 
 
 
-![png](p-analytics_25_1.png)
+![png](/images/p-analytics_25_1.png)
 
 
 
@@ -901,7 +901,7 @@ depto_salario.plot(kind="bar", figsize=(20,10), stacked=True)
 
 
 
-![png](p-analytics_26_1.png)
+![png](/images/p-analytics_26_1.png)
 
 
 ### Perspectiva de crescimento na área de vendas é menor. Muitos colaboradores para poucas posições de liderança.
@@ -922,7 +922,7 @@ salario_abandono.plot(kind="bar", figsize=(20,10), stacked=True)
 
 
 
-![png](p-analytics_28_1.png)
+![png](/images/p-analytics_28_1.png)
 
 
 
@@ -941,7 +941,7 @@ ult_promocao_demissao.plot(kind="bar", figsize=(20,10), stacked=True)
 
 
 
-![png](p-analytics_29_1.png)
+![png](/images/p-analytics_29_1.png)
 
 
 ### Ao que parece a maioria ou quase todos os empregados que saíram, não foram promovidos nos últimos 5 anos.
@@ -962,7 +962,7 @@ tempo_empresa_demissao.plot(kind="barh", figsize=(20,10), stacked=True)
 
 
 
-![png](p-analytics_31_1.png)
+![png](/images/p-analytics_31_1.png)
 
 
 ### Insights
@@ -985,7 +985,7 @@ num_projetos_demissao.plot(kind="bar", figsize=(20,10), stacked=True)
 
 
 
-![png](p-analytics_33_1.png)
+![png](/images/p-analytics_33_1.png)
 
 
 ### Insights    
@@ -1019,7 +1019,7 @@ plt.title('Última avaliação')
 
 
 
-![png](p-analytics_36_1.png)
+![png](/images/p-analytics_36_1.png)
 
 
 ### Vamos verificar a relação entre as horas e o abandono
@@ -1048,7 +1048,7 @@ plt.title('Media de horas mensais')
 
 
 
-![png](p-analytics_38_1.png)
+![png](/images/p-analytics_38_1.png)
 
 
 ### Insights
@@ -1078,7 +1078,7 @@ plt.title('Distribuição do Nível de satisfação por demissão')
 
 
 
-![png](p-analytics_41_1.png)
+![png](/images/p-analytics_41_1.png)
 
 
 ### Quais são os grupos de colaboradores da minha base? 
@@ -1100,7 +1100,7 @@ sns.lmplot(x='nivel_satisfacao', y='ultima_avaliacao', data=df,
 
 
 
-![png](p-analytics_43_1.png)
+![png](/images/p-analytics_43_1.png)
 
 
 ### Conclusão
