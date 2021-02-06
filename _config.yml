@@ -4,22 +4,25 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "flexton.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author
-author-name:    Clayton Hanson
+author-name:    Alessandro Souza Eugenio
 author-image:   1.jpg
-author-job:     Web Developer
-author-email:   your-email@domain.com # Add your email for contant form.
+author-job:     Cientista de Dados, Gestor de pessoas, Publicitário
+author-email:   sandrogenio@gmail.com # Add your email for contant form.
 author-twitter: artemsheludko_ # Add your twitter account
-about-author:   I am a web developer focusing on front-end development. Always hungry to keep learning.
+about-author:   Sou profissional multidisciplinar, comunicador e gestor de pessoas. Com longa experiência em mídia e difusão, tenho me dedicado aplicar a cultura data-driven em meu ambiente de trabalho. 
+Gosto de lidar com pessoas e acredito no poder que dados proporcionam às organizações.
+
+https://github.com/alesouzaeu/DS_portifolio
 
 # Social settings
 social-twitter:   artemsheludko_
-social-facebook:
-social-github:    artemsheludko
+social-facebook:  https://www.facebook.com/alesouzaeu
+social-github:    /github.com/alesouzaeu
 social-pinterest: artemsheludko
 social-instagram: artemsheludko_
 social-youtube:
 social-vk:   
-social-linkedin:
+social-linkedin: https://www.linkedin.com/in/alesouzaeu/
 
 # Newsletter
 mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
