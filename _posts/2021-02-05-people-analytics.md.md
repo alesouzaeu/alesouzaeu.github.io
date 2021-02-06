@@ -91,7 +91,7 @@ df.head()
         text-align: right;
     }
 </style>
-<table border="1"  width="100%;" class="dataframe">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -232,7 +232,7 @@ df.head()
         text-align: right;
     }
 </style>
-<table border="1" width="100%;" class="dataframe">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -347,7 +347,7 @@ df.head()
         text-align: right;
     }
 </style>
-<table border="1" width="100%;" class="dataframe">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -515,7 +515,7 @@ abandono_overview.mean()
         text-align: right;
     }
 </style>
-<table border="1" width="100%;" class="dataframe">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -605,7 +605,7 @@ df.describe()
         text-align: right;
     }
 </style>
-<table border="1" width="100%;" class="dataframe">
+<table border="1"  class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -756,7 +756,7 @@ corr
         text-align: right;
     }
 </style>
-<table border="1" width="100%;" class="dataframe">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
