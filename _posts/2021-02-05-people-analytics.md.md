@@ -1,3 +1,12 @@
+---
+layout: post
+title: Análise de Turnover
+image: 13.jpg
+date: 2021-02-05 13:35:20 +0200
+tags:
+categories: People Analytics
+---
+
 # Avaliando o perfil de colaboradores que se desligaram da empresa
 
 ## Objetivo
