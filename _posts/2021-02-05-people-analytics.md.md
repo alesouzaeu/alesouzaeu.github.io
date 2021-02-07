@@ -867,7 +867,6 @@ corr
 
 ### Departamento vs Abandono
 
-![png](https://media.giphy.com/media/YlAQJmceNSN2dlsyQc/giphy.gif)
 
 
 ```python
@@ -892,9 +891,11 @@ depto_abandono.plot(kind='bar',
 ![png](/images/p-analytics_25_1.png)
 
 
+![png](https://media.giphy.com/media/YlAQJmceNSN2dlsyQc/giphy.gif)
+
 ### Departamento vs Média Salarial
 
-![png](https://media.giphy.com/media/5fBH6z8aMV1RbA4FaSc/giphy.gif)
+
 
 
 ```python
@@ -914,6 +915,7 @@ depto_salario.plot(kind="bar", figsize=(20,10), stacked=True)
 
 ![png](/images/p-analytics_26_1.png)
 
+![png](https://media.giphy.com/media/5fBH6z8aMV1RbA4FaSc/giphy.gif)
 
 ### Perspectiva de crescimento na área de vendas é menor. Muitos colaboradores para poucas posições de liderança.
 
