@@ -890,7 +890,6 @@ depto_abandono.plot(kind='bar',
 ![png](/images/p-analytics_25_1.png)
 
 
-![png](https://media.giphy.com/media/YlAQJmceNSN2dlsyQc/giphy.gif)
 
 ### Departamento vs Média Salarial
 
@@ -914,12 +913,12 @@ depto_salario.plot(kind="bar", figsize=(20,10), stacked=True)
 
 ![png](/images/p-analytics_26_1.png)
 
-![png](https://media.giphy.com/media/5fBH6z8aMV1RbA4FaSc/giphy.gif)
+
 
 ### Perspectiva de crescimento na área de vendas é menor. Muitos colaboradores para poucas posições de liderança.
 
 
-# Média Salarial vs Abandono
+### Média Salarial vs Abandono
 
 ```python
 
@@ -960,9 +959,10 @@ ult_promocao_demissao.plot(kind="bar", figsize=(20,10), stacked=True)
 ![png](/images/p-analytics_29_1.png)
 
 
+
+
 ### Ao que parece a maioria ou quase todos os empregados que saíram, não foram promovidos nos últimos 5 anos.
 
-![png](https://media.giphy.com/media/kBMQvQ27ax17nGj1v6/giphy.gif)
 
 ### Tempo de empresa vs Abandono
 
