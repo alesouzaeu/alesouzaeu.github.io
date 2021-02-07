@@ -9,7 +9,6 @@ categories: PeopleAnalytics
 
 # Avaliando o perfil de colaboradores que se desligaram da empresa
 
-## Objetivo
 
 O  foco  inicial do projeto é identificar os perfis de colaboradores que tendem a pedir demissão nessa empresa, de acordo com a base de dados fornecida pela IBM.
   Esta  base foi  obtida  no site do **Kaggle**
