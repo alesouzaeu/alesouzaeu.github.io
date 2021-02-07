@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Análise de turnover
-image: 14.jpg
+image: 13.jpg
 date: 2021-02-05 13:35:20 +0200
 tags:
 categories: PeopleAnalytics
