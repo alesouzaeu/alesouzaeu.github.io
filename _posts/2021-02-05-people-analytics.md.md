@@ -11,13 +11,10 @@ categories: PeopleAnalytics
 
 ## Objetivo
 
-O  foco  do  trabalho identificar a  possibilidade  de  previsao  de um funcionario pedir o
-  desligamento da empresa  
+O  foco  inicial do projeto é identificar os perfis de colaboradores que tendem a pedir demissão nessa empresa, de acordo com a base de dados fornecida pela IBM.
   Esta  base foi  obtida  no site do **Kaggle**
 
-  Para esse caso vamos aplicar as ferramentas: **Arvore de Decisao e Regressao Logistica**
-  que sao **tecnicas supervisionadas de classificao**
-  em que a variavel de interesse eh categorias/grupos em  uma  base  de  dados  real.
+  Para esse caso vamos aplicar as ferramentas: **Matrix Correlation e Biblioteca Seaborn**
 
 
 ```python
@@ -44,9 +41,10 @@ df = pd.read_csv('HR_comma_sep.csv', dtype={'left':'category'})
 df.rename(columns={"satisfaction_level":"nivel_satisfacao","last_evaluation":"ultima_avaliacao", "number_project":"numero_projetos", "average_montly_hours":"media_horas_mensal", "time_spend_company":"tempo_empresa", "Work_accident":"sofreu_acidente", "promotion_last_5years":"promocao_ultimos_5anos", "left":"demissao", "sales":"depto","salary":"salario"}, inplace=True)
 ```
 
+### verificando se existe algum dano Null em nossa base de dados. 
 
 ```python
-#verificando se existe algum dano Null em nossa base de dados. 
+
 df.isnull().any()
 ```
 
@@ -581,9 +579,10 @@ abandono_overview.mean()
     4- As pessoas que abandonam a empresa que tem uma taxa de promoção MUITO menor que aqueles que permanecem na empresa.
     5- O salário médio de quem abandona a empresa é muito menor.
 
+#### Uma visão mais estatistica do dataset
 
 ```python
-#Uma visão mais estatistica do dataset
+
 
 df.describe()
 ```
@@ -862,9 +861,10 @@ corr
 - O que significa? Para os relacionamentos negativos (-), o abandono, a satisfação e o salário são altamente correlacionados.
 - As pessoas que tendem a deixar a empresa, mais quando estão menos satisfeitas e mal remuneradas.
 
+### Departamento vs Abandono
 
 ```python
-#departamento vs abandono
+
 depto_abandono = pd.crosstab(index=df['depto'], 
                             columns=df['demissao'])
 depto_abandono.plot(kind='bar',
@@ -885,9 +885,10 @@ depto_abandono.plot(kind='bar',
 ![png](/images/p-analytics_25_1.png)
 
 
+### Departamento vs Média Salarial
 
 ```python
-#departamento vs media salarial
+
 depto_salario = pd.crosstab(index=df['depto'],
                             columns=df['salario'])
 depto_salario.plot(kind="bar", figsize=(20,10), stacked=True)
@@ -907,8 +908,10 @@ depto_salario.plot(kind="bar", figsize=(20,10), stacked=True)
 ### Perspectiva de crescimento na área de vendas é menor. Muitos colaboradores para poucas posições de liderança.
 
 
+# Média Salarial vs Abandono
+
 ```python
-#Media salarial vs abandono
+
 salario_abandono = pd.crosstab(index=df['salario'],
                             columns=df['demissao'])
 salario_abandono.plot(kind="bar", figsize=(20,10), stacked=True)
@@ -924,10 +927,10 @@ salario_abandono.plot(kind="bar", figsize=(20,10), stacked=True)
 
 ![png](/images/p-analytics_28_1.png)
 
-
+### Promoção nos últimos 5 anos vs Abandono
 
 ```python
-#promoção vs abandono
+
 ult_promocao_demissao = pd.crosstab(index=df['promocao_ultimos_5anos'],
                             columns=df['demissao'])
 ult_promocao_demissao.plot(kind="bar", figsize=(20,10), stacked=True)
@@ -946,9 +949,10 @@ ult_promocao_demissao.plot(kind="bar", figsize=(20,10), stacked=True)
 
 ### Ao que parece a maioria ou quase todos os empregados que saíram, não foram promovidos nos últimos 5 anos.
 
+### Tempo de empresa vs Abandono
 
 ```python
-#Tempo de empresa vs abandono
+
 tempo_empresa_demissao = pd.crosstab(index=df['tempo_empresa'],
                             columns=df['demissao'])
 tempo_empresa_demissao.plot(kind="barh", figsize=(20,10), stacked=True)
@@ -970,8 +974,10 @@ tempo_empresa_demissao.plot(kind="barh", figsize=(20,10), stacked=True)
     2- Note que ninguém que tem de 7 a 10 anos de empresa, saiu da empresa.
 
 
+### Numero de Projetos vs Abandono
+
 ```python
-#Numero de projetos vs abandono
+
 num_projetos_demissao = pd.crosstab(index=df['numero_projetos'],
                             columns=df['demissao'])
 num_projetos_demissao.plot(kind="bar", figsize=(20,10), stacked=True)
@@ -1103,10 +1109,29 @@ sns.lmplot(x='nivel_satisfacao', y='ultima_avaliacao', data=df,
 ![png](/images/p-analytics_43_1.png)
 
 
-### Conclusão
+
 
 #### São três personas que estão saindo da minha empresa.
 
         1- Pessoas que são muito boas, que estão extremamente insatisfeitas.
         2- Pessoas que são muito boas, que estão extremamente satisfeitas.
         3- Pessoas que são medianas, que estão mais ou menos satisfeitas.
+
+#### A nível de RH algumas ações podem ser tomadas com base neste ensaio de People Analytics.
+
+        Partindo do princípio que de 3 e 6 anos de empresa, a evasão é considerável, olharemos para esta faixa com mais carinho.
+        
+       Entendemos que o ponto mais crítico é com relação aos *colaboradores extremamente bons, que estão extremamente insatisfeitos.* Não queremos perdê-los não é mesmo? 
+
+       ### O que faremos?
+        
+        1 - Em especial notamos durante o estudo que os colaboradores que mais trabalham são vistos pelos gestores como os mais bem avaliados. Com base na somatória de horas mensal de cada um, a proposta é reavaliar a quantidade de projetos proposta por seus gestores. O objetivo é não sobrecarregá-los, para que tenham tempo para curtir suas famílias, estudar, ter momentos de lazer e diminuir assim o extress. O total de três projetos seria a nossa meta para estes ótimos colaboradores insatisfeitos, que certamente costumam trabalhar até estafar.
+        
+        2 - Ainda será necessário rever o plano de carreira para o departamento de vendas. Tratam-se de muitos colaboradores em um setor que não oferece muitas oportunidades de crescimento. O que faz com que os excelentes funcionários dali, desejem sair ao mercado à procura da promoção que não conseguiram nos últimos 5 anos. Se não for possível subí-los de cargo, pode-se avaliar (os pontos positivos e negativos diante da cultura atual) a implantação de um projeto de incentivo à carreira em *W*. Ótima possibilidade para valorizar, reter, promover o pensamento sistêmico e a criação de novas equipes multifuncionais.
+
+        3 - Ao grupo dos *colaboradores muito insatisfeitos e mal avaliados por seus gestores*, deve-se abrir espaço para uma proposta de desenvolvimento que permita identificar potenciais talentos que tem dificuldades de se desenvolverem na estrutura atual. Novamente assumimos que os gestores desta empresa, tendem a valorizar os que mais trabalham, com projetos e que fazem mais horas, este grupo de funcionários pode estar sentindo pouco aproveitados e até mesmo acomodados com seus 2 projetos. É preciso tirá-los da zona de conforto, capacitá-los e aproveitá-los. 
+
+        
+### Conclusão
+
+Note segmentar os grupos do seu quadro de funcionários de acordo com os critérios da sua base de dados poderá auxiliá-lo a não desperdiçar dinheiro investindo em planos de desenvolvimentos genéricos e pouco eficazes. Pense no quanto você pode otimizar o crescimento dos talentos de sua companhia olhando de forma individual para aquele colaborador que realmente precisa da sua atenção.
