@@ -867,6 +867,9 @@ corr
 
 ### Departamento vs Abandono
 
+![png](https://media.giphy.com/media/YlAQJmceNSN2dlsyQc/giphy.gif)
+
+
 ```python
 
 depto_abandono = pd.crosstab(index=df['depto'], 
@@ -890,6 +893,9 @@ depto_abandono.plot(kind='bar',
 
 
 ### Departamento vs Média Salarial
+
+![png](https://media.giphy.com/media/5fBH6z8aMV1RbA4FaSc/giphy.gif)
+
 
 ```python
 
