@@ -927,6 +927,8 @@ salario_abandono.plot(kind="bar", figsize=(20,10), stacked=True)
 
 ![png](/images/p-analytics_28_1.png)
 
+
+
 ### Promoção nos últimos 5 anos vs Abandono
 
 ```python
@@ -948,6 +950,8 @@ ult_promocao_demissao.plot(kind="bar", figsize=(20,10), stacked=True)
 
 
 ### Ao que parece a maioria ou quase todos os empregados que saíram, não foram promovidos nos últimos 5 anos.
+
+![png](https://media.giphy.com/media/kBMQvQ27ax17nGj1v6/giphy.gif)
 
 ### Tempo de empresa vs Abandono
 
@@ -972,6 +976,10 @@ tempo_empresa_demissao.plot(kind="barh", figsize=(20,10), stacked=True)
 ### Insights
     1- A zona de perigo de abandono se dá entre 3 e 6 anos de empresa. (Nesta faixa, por que não apresentar propostas para motivar este grupo)
     2- Note que ninguém que tem de 7 a 10 anos de empresa, saiu da empresa.
+
+
+![png](https://media.giphy.com/media/XCxcmEQWxDdc8qsd2R/giphy.gif)
+
 
 
 ### Numero de Projetos vs Abandono
@@ -1119,17 +1127,17 @@ sns.lmplot(x='nivel_satisfacao', y='ultima_avaliacao', data=df,
 
 #### A nível de RH algumas ações podem ser tomadas com base neste ensaio de People Analytics.
 
-        Partindo do princípio que de 3 e 6 anos de empresa, a evasão é considerável, olharemos para esta faixa com mais carinho.
-        
-       Entendemos que o ponto mais crítico é com relação aos *colaboradores extremamente bons, que estão extremamente insatisfeitos.* Não queremos perdê-los não é mesmo? 
+Partindo do princípio que de 3 e 6 anos de empresa, a evasão é considerável, olharemos para esta faixa com mais carinho.
 
-       ### O que faremos?
-        
-        1 - Em especial notamos durante o estudo que os colaboradores que mais trabalham são vistos pelos gestores como os mais bem avaliados. Com base na somatória de horas mensal de cada um, a proposta é reavaliar a quantidade de projetos proposta por seus gestores. O objetivo é não sobrecarregá-los, para que tenham tempo para curtir suas famílias, estudar, ter momentos de lazer e diminuir assim o extress. O total de três projetos seria a nossa meta para estes ótimos colaboradores insatisfeitos, que certamente costumam trabalhar até estafar.
-        
-        2 - Ainda será necessário rever o plano de carreira para o departamento de vendas. Tratam-se de muitos colaboradores em um setor que não oferece muitas oportunidades de crescimento. O que faz com que os excelentes funcionários dali, desejem sair ao mercado à procura da promoção que não conseguiram nos últimos 5 anos. Se não for possível subí-los de cargo, pode-se avaliar (os pontos positivos e negativos diante da cultura atual) a implantação de um projeto de incentivo à carreira em *W*. Ótima possibilidade para valorizar, reter, promover o pensamento sistêmico e a criação de novas equipes multifuncionais.
+Entendemos que o ponto mais crítico é com relação aos *colaboradores extremamente bons, que estão extremamente insatisfeitos.* Não queremos perdê-los não é mesmo? 
 
-        3 - Ao grupo dos *colaboradores muito insatisfeitos e mal avaliados por seus gestores*, deve-se abrir espaço para uma proposta de desenvolvimento que permita identificar potenciais talentos que tem dificuldades de se desenvolverem na estrutura atual. Novamente assumimos que os gestores desta empresa, tendem a valorizar os que mais trabalham, com projetos e que fazem mais horas, este grupo de funcionários pode estar sentindo pouco aproveitados e até mesmo acomodados com seus 2 projetos. É preciso tirá-los da zona de conforto, capacitá-los e aproveitá-los. 
+### O que faremos?
+
+1 - Em especial notamos durante o estudo que os colaboradores que mais trabalham são vistos pelos gestores como os mais bem avaliados. Com base na somatória de horas mensal de cada um, a proposta é reavaliar a quantidade de projetos proposta por seus gestores. O objetivo é não sobrecarregá-los, para que tenham tempo para curtir suas famílias, estudar, ter momentos de lazer e diminuir assim o extress. O total de três projetos seria a nossa meta para estes ótimos colaboradores insatisfeitos, que certamente costumam trabalhar até estafar.
+
+2 - Ainda será necessário rever o plano de carreira para o departamento de vendas. Tratam-se de muitos colaboradores em um setor que não oferece muitas oportunidades de crescimento. O que faz com que os excelentes funcionários dali, desejem sair ao mercado à procura da promoção que não conseguiram nos últimos 5 anos. Se não for possível subí-los de cargo, pode-se avaliar (os pontos positivos e negativos diante da cultura atual) a implantação de um projeto de incentivo à carreira em *W*. Ótima possibilidade para valorizar, reter, promover o pensamento sistêmico e a criação de novas equipes multifuncionais.
+
+3 - Ao grupo dos *colaboradores muito insatisfeitos e mal avaliados por seus gestores*, deve-se abrir espaço para uma proposta de desenvolvimento que permita identificar potenciais talentos que tem dificuldades de se desenvolverem na estrutura atual. Novamente assumimos que os gestores desta empresa, tendem a valorizar os que mais trabalham, com projetos e que fazem mais horas, este grupo de funcionários pode estar sentindo pouco aproveitados e até mesmo acomodados com seus 2 projetos. É preciso tirá-los da zona de conforto, capacitá-los e aproveitá-los. 
 
         
 ### Conclusão
