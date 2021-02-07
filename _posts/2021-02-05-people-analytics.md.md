@@ -179,6 +179,7 @@ df.head()
 
 ### Quantos colaboradores temos para cada departamento? 
 
+![png](https://media.giphy.com/media/MsWnkCVSXz73i/giphy.gif)
 
 ```python
 df['depto'].value_counts()
@@ -580,6 +581,9 @@ abandono_overview.mean()
     5- O salário médio de quem abandona a empresa é muito menor.
 
 #### Uma visão mais estatistica do dataset
+
+
+![png](https://media.giphy.com/media/ne3xrYlWtQFtC/giphy.gif)
 
 ```python
 
@@ -1072,6 +1076,7 @@ plt.title('Media de horas mensais')
 
 ### Vamos verificar a relação entre a demissão e média de projetos
 
+![png](https://media.giphy.com/media/3oriO0DjQt8QCUUDL2/giphy.gif)
 
 ```python
 fig2 = plt.figure(figsize=(20,6),)
