@@ -1,15 +1,12 @@
 ---
 layout: post
-title: The Battle of the Neighborhoods in São Paulo City, Brazil.
+title: Coursera_Capstone - The Battle of the Neighborhoods in São Paulo City, Brazil.
 image: pexels-bruno-mancini-3852288.jpg
 date: 2021-03-05 17:00:00 +0200
-tags: coursera, capstone, sao_paulo, brazil
+tags: coursera capstone sao_paulo brazil DataScience GeoMarketing Python GeoPy Pandas Webscraping
 categories: Coursera
 ---
 
-# Coursera_Capstone
-
-# The Battle of the Neighborhoods in São Paulo City, Brazil.
 Final project of the Coursera IBM Data Science Course
 
 ---
