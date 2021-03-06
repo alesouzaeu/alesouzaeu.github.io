@@ -1,3 +1,12 @@
+---
+layout: post
+title: Análise de turnover
+image: 15.jpg
+date: 2021-03-05 17:00:00 +0200
+tags: coursera, capstone, sao_paulo, brazil
+categories: Coursera
+---
+
 # Coursera_Capstone
 
 # The Battle of the Neighborhoods in São Paulo City, Brazil.
