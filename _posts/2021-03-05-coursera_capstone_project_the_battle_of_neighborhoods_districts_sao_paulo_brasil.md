@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Coursera_Capstone - The Battle of the Neighborhoods in São Paulo City, Brazil.
-image: pexels-bruno-mancini-3852288.jpg
+title: Coursera Capstone - The Battle of the Neighborhoods in São Paulo City, Brazil.
+image: pexels-sergio-souza-5047706.jpg
 date: 2021-03-05 17:00:00 +0200
-tags: coursera capstone sao_paulo brazil DataScience GeoMarketing Python GeoPy Pandas Webscraping
+tags: coursera capstone sao_paulo brazil DataScience GeoMarketing Python GeoPy Pandas WebScraping
 categories: Coursera
 ---
 
@@ -28,6 +28,8 @@ We are talking about 96 Districts
 
 ![Alt ou título da imagem](https://miro.medium.com/max/1000/1*-tfHBjz7w73-YsBuM0JndA.png)
 https://medium.com/mappinglab/exploring-and-visualizing-the-accessibility-of-social-infrastructure-in-são-paulo-c30162525511
+
+------   
 
 # 2.Data
 
@@ -62,6 +64,8 @@ URL: https://pt.wikipedia.org/wiki/Lista_dos_distritos_de_São_Paulo_por_popula�
 
 ![Alt ou título da imagem](https://raw.githubusercontent.com/alesouzaeu/Coursera_Capstone/main/The_Battle_of_the_Neighborhoods/images/dataset1.jpg)
 
+------   
+
 # 3. Methodology
 
 This survey is a Clustering problem. In this case We will use a machine learning method.
@@ -91,6 +95,8 @@ The Coordinates had been gotten by The Library GeoPy, that fetchs the Latitude a
 
 
 ![Alt ou título da imagem](https://raw.githubusercontent.com/alesouzaeu/Coursera_Capstone/main/The_Battle_of_the_Neighborhoods/images/dataset3.jpg)
+
+------   
 
 # 5. Visualizing Data
 
@@ -123,6 +129,8 @@ For that we have used The One Hot Encoding method.
 **5.5** In case of this business problem We want to discover the most common Venue of São Paulo's District. All of this driven by location.
 
 ![Alt ou título da imagem](https://raw.githubusercontent.com/alesouzaeu/Coursera_Capstone/main/The_Battle_of_the_Neighborhoods/images/dataset9.jpg)
+
+------   
 
 # 6. Modeling
 
@@ -180,6 +188,8 @@ The 6 clusterings separated by Colors!
 ## Cluster 6
 
 ![Alt ou título da imagem](https://raw.githubusercontent.com/alesouzaeu/Coursera_Capstone/main/The_Battle_of_the_Neighborhoods/images/Cluster6.jpg)
+
+------   
 
 # 7. Conclusion
 
