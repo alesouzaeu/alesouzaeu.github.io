@@ -26,8 +26,8 @@ And finally, help them to make better buying decisions. We will use all power of
 # Districts of São Paulo City
 We are talking about 96 Districts
 
-![https://medium.com/mappinglab/exploring-and-visualizing-the-accessibility-of-social-infrastructure-in-são-paulo-c30162525511](https://miro.medium.com/max/1000/1*-tfHBjz7w73-YsBuM0JndA.png)
-
+![Alt ou título da imagem](https://miro.medium.com/max/1000/1*-tfHBjz7w73-YsBuM0JndA.png)
+https://bit.ly/3bTma3a
 
 ------   
 
