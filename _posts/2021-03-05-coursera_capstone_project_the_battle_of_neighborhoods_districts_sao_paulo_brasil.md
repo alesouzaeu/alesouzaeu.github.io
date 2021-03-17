@@ -60,7 +60,7 @@ Like that:
         from selenium.webdriver.common.by import By
         import json
 
-URL: https://pt.wikipedia.org/wiki/Lista_dos_distritos_de_São_Paulo_por_população
+URL da Base de dados do Wikipedia: https://bit.ly/3vwSNvp
 
 ![Alt ou título da imagem](https://raw.githubusercontent.com/alesouzaeu/Coursera_Capstone/main/The_Battle_of_the_Neighborhoods/images/dataset1.jpg)
 
