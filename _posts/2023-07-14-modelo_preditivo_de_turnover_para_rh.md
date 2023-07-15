@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Kaagle - Modelo preditivo de turnover na empresa.
-image: cdd20-klidkegqfoo-unsplash.jpg
+image: stephen-dawson-qwtCeJ5cLYs-unsplash.jpg
 date: 2023-07-14 16:00:00 +0200
 tags: modelo preditivo turnover machine learning random forest data science
-categories: PEOPLEANALYTICS
+categories: PEOPLE_ANALYTICS
 ---
 Problema de negócio - Construir uma máquina preditiva cujo objetivo é prever o turnover de funcionários da empresa
 ---
