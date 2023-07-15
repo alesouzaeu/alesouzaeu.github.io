@@ -4,7 +4,7 @@ title: Análise de turnover
 image: 14.jpg
 date: 2021-02-05 13:35:20 +0200
 tags: PeopleAnalytics HR DataScience Python Pandas Seaborn Matplotlib Kaggle
-categories: PeopleAnalytics
+categories: PEOPLE_ANALYTICS
 ---
 
 # Avaliando o perfil de colaboradores que se desligaram da empresa
