@@ -1,0 +1,9 @@
+.c-post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.c-post-item {
+  margin-bottom: 20px;
+  /* Estilos adicionais para cada item da lista */
+}
