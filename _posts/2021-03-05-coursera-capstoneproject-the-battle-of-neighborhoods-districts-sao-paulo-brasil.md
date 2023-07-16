@@ -201,3 +201,4 @@ With those tools We will able to make recommendations to each public in each clu
 
 It is a good way to construct a New marketing campain to your constumers. Dada help us to understand our public and get less mistakes than other market players.
 
+{% include disqus-comments.html %}
