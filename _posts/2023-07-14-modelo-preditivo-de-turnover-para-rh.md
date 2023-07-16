@@ -8,7 +8,6 @@ categories: people_analytics
 permalink: /category/people_analytics/
 
 --
-
 Problema de negócio - Construir uma máquina preditiva cujo objetivo é prever o turnover de funcionários da empresa
 ---
 ![It's Job Time!](https://media.giphy.com/media/btbUGSHh3f6eBjbDfh/giphy-downsized-large.gif)
