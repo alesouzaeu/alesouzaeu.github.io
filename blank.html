@@ -10,12 +10,12 @@ layout: home
   {% assign currentPage = 1 %}
 {% endif %}
 
-{% assign category = page.category | default: '' %} <!-- Adicionado este trecho -->
+{% assign category = page.category | default: '' %}
 
 {% include header.html %}
 <div class="c-posts o-opacity" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}">
   {% for post in site.posts limit:site.paginate offset:offset %}
-    {% if category == '' or post.categories contains category %} <!-- Adicionado este trecho -->
+    {% if category == '' or post.categories contains category %}
       <article class="c-post">
         {% if post.image %}
           <a class="c-post-thumbnail o-opacity" style="background-image: url({{"/images/" | prepend: site.baseurl | append : post.image}})"
@@ -31,7 +31,7 @@ layout: home
             plus: 250 | divided_by: 250 | append: " minutos de leitura" }}{% endunless %}</span>
         </div>
       </article> <!-- /.c-post -->
-    {% endif %} <!-- Adicionado este trecho -->
+    {% endif %}
   {% endfor %}
 </div> <!-- /.c-posts -->
 
