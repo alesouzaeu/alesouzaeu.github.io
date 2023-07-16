@@ -186,5 +186,7 @@ Isso pode incluir a implementação de políticas de retenção, programas de de
 -
 Essas ações podem ajudar a reduzir a rotatividade de funcionários, economizando recursos financeiros e tempo de treinamento investidos em novas contratações. Além disso, a predição de turnover permite que a empresa identifique os fatores de risco e as tendências subjacentes que levam ao afastamento dos funcionários.Com essas informações, é possível realizar análises mais aprofundadas sobre o ambiente de trabalho, políticas de gestão e satisfação dos funcionários, visando a implementação de melhorias específicas e estratégias de engajamento. Isso resulta em um ambiente de trabalho mais saudável, aumento da produtividade, melhor colaboração e um clima organizacional positivo. 
 -
+
+{% include disqus-comments.html %}
 De forma geral, a predição de turnover por meio de machine learning oferece grande vantagem competitiva significativa, permitindo que a empresa adote uma abordagem proativa para a gestão de talentos, melhore a retenção de funcionários e crie um ambiente de trabalho mais saudável e produtivo.
 
