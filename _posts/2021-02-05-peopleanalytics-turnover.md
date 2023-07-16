@@ -1156,3 +1156,5 @@ Entendemos que o ponto mais crítico é com relação aos *colaboradores extrema
 ### Conclusão
 
 Note que segmentar os grupos do seu quadro de funcionários de acordo com os critérios da sua base de dados poderá auxiliá-lo a não desperdiçar dinheiro investindo em planos de desenvolvimentos genéricos e pouco eficazes. Pense no quanto você pode otimizar o crescimento dos talentos de sua companhia olhando de forma individual para aquele colaborador que realmente precisa da sua atenção.
+
+{% include disqus-comments.html %}
