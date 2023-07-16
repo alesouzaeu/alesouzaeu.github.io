@@ -1,8 +1,3 @@
----
-layout: category
-permalink: /category/:category/
----
-{% include header.html %}
 <div class="c-categories" style="display: none;">
   <ul class="c-categories__list u-lists-reset">
     {% capture cats %} {% for cat in site.categories %} {{ cat | first }} {% endfor %} {% endcapture %} {% assign sortedCats
