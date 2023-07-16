@@ -10,12 +10,12 @@ layout: home
   {% assign currentPage = 1 %}
 {% endif %}
 
-{% assign category = page.category | default: '' %}
+{% assign category = "geral" %} <!-- Modificado para "geral" -->
 
 {% include header.html %}
 <div class="c-posts o-opacity" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}">
   {% for post in site.posts limit:site.paginate offset:offset %}
-    {% if category == '' or post.categories contains category %}
+    {% if post.categories contains category %}
       <article class="c-post">
         {% if post.image %}
           <a class="c-post-thumbnail o-opacity" style="background-image: url({{"/images/" | prepend: site.baseurl | append : post.image}})"
