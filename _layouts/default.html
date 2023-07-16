@@ -2,7 +2,17 @@
 <html lang="en">
 {% include head.html %}
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/categories.css">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NM07C7B6ZG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-NM07C7B6ZG');
+</script>
+</head>
 <body>
   {% if site.google-analytics %}
     {% include analytics.html %}
