@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Clusterização e Geolocalização com Foursquare.
+title: Clustering and geo location with Foursquare-api in Data Analysis.
 image: pexels-sergio-souza-5047706.jpg
 date: 2021-03-05 17:00:00 +0200
 tags: coursera capstone sao_paulo brazil DataScience GeoMarketing Python GeoPy Pandas WebScraping
-categories: geral
-permalink: /category/geral/clusterizacao-e-geolocalizacao-com-foursquare/
+categories: data-science
+permalink: /category/data-science/clustering-and-geo-location-with-foursquare-api-in-data-analysis/
 ---
 
 Final project of the Coursera IBM Data Science Course
