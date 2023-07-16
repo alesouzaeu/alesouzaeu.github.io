@@ -3,7 +3,9 @@ layout: home
 ---
 {% include header.html %}
 <div class="c-posts o-opacity">
-  {% for post in site.categories[page.title] %}
+  {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+{% for post in sorted_posts %}
+  {% if post.categories contains page.category %}
   <article class="c-post">
     {% if post.image %}
     <a class="c-post-thumbnail" style="background-image: url({{"/images/" | prepend: site.baseurl | append : post.image}})"
