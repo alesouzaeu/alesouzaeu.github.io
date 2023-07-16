@@ -5,7 +5,7 @@ image: stephen-dawson-qwtCeJ5cLYs-unsplash.jpg
 date: 2023-07-14 16:00:00 +0200
 tags: modelo preditivo turnover machine learning random forest data science
 comments: true
-categories: [people_analytics]
+categories: [people-analytics]
 permalink: /category/people_analytics/kaagle-modelo-preditivo-de-turnover-para-rh/
 ---
 --
