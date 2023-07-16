@@ -4,7 +4,7 @@ layout: home
 {% include header.html %}
 <div class="c-posts o-opacity">
   {% for post in site.posts %}
-    {% if post.categories contains 'people-analytics' %}
+    {% if post.categories contains 'people_analytics' %}
       <article class="c-post">
         {% if post.image %}
           <a class="c-post-thumbnail" style="background-image: url({{ "/images/" | prepend: site.baseurl | append: post.image }})" href="{{ post.url | prepend: site.baseurl }}"></a>
