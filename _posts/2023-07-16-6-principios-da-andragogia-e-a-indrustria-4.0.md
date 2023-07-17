@@ -9,8 +9,6 @@ categories: [educacao]
 permalink: /category/educacao/6-principios-da-andragogia-e-a-industria-4.0/
 ---
 
-![homem estudando](https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/master/images/studio-republic-qeij_dhDhGg-unsplash.jpg)
-
 # Os 6 princípios da Andragogia
 
 Com o advento da Indústria 4.0, caracterizada pela digitalização e automação avançada, surge a necessidade de repensar os métodos de aprendizagem para os profissionais adultos. A andragogia, a arte e ciência de ensinar adultos, oferece um caminho promissor para enfrentar os desafios dessa nova era. Neste artigo, exploraremos os principais obstáculos que a andragogia enfrenta na Indústria 4.0, ao mesmo tempo em que destacamos os seis princípios fundamentais dessa abordagem educacional.
