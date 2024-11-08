@@ -1,3 +1,5 @@
 # robotstxt.org/
 
 User-agent: *
+Disallow: /admin/
+Sitemap: https://alesouzaeu.github.io/sitemap.xml
