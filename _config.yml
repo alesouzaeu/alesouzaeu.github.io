@@ -13,12 +13,12 @@ show_hero: true
 menu:
   - title: Home
     url: /
-  - title: About
+  - title: Sobre
     url: /about
-  - title: Contact
+  - title: Contato
     url: /contact
-  - title: Feed
-    url: /feed.xml
+# - title: Feed
+    # url: /feed.xml
 email: youremail@test.com
 # See: https://disqus.com/
 disqus_username: disqus_username
