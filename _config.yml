@@ -1,8 +1,7 @@
 # Site Settings
 name: Alesouzaeu
 title: Alesouzaeu | Meu porfólio
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+description: Educação corporativa e Cientista de Dados. Apaixonado por criar experiências de aprendizado personalizadas e baseadas em dados.
 tags:
   - blog
   - template
@@ -29,12 +28,12 @@ formspree_form_id: formspree_form_id
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+github_username: https://github.com/alesouzaeu
+# facebook_username: facebook_username
+# twitter_username: twitter_username
+instagram_username: https://www.instagram.com/alesouzaeu/
+linkedin_username: www.linkedin.com/in/alesouzaeu
+# medium_username: medium_username
 
 
 # Posts Settings
