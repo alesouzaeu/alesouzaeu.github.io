@@ -28,11 +28,11 @@ formspree_form_id: formspree_form_id
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: https://github.com/alesouzaeu
+github_username: alesouzaeu
 # facebook_username: facebook_username
 # twitter_username: twitter_username
-instagram_username: https://www.instagram.com/alesouzaeu/
-linkedin_username: www.linkedin.com/in/alesouzaeu
+instagram_username: alesouzaeu
+linkedin_username: alesouzaeu
 # medium_username: medium_username
 
 
