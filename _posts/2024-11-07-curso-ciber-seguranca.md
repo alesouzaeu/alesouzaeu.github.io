@@ -4,12 +4,12 @@ layout: post
 title: Curso - Segurança Cibernética para Leigos - Como se proteger dos hackers
 subtitle: Curso para ensinar alunos a se protegerem de cibercrimes.
 description: Objetivo - Ensinar o aluno a analisar o que torna uma senha mais ou menos segura. Também a compreender o riscos do uso indiscriminado de senhas repetidas em suas contas de e-mail. E ainda a identificar possíveis golpes no ambiente digital.
-image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/apresentação-tela.png
-optimized_image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/apresentação-tela.png scale-down-to=1024
+image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/Seguranca-Digital-Protegendo-Seus-Dados.pptx.jpg
+optimized_image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/Seguranca-Digital-Protegendo-Seus-Dados.pptx.jpg scale-down-to=1024
 category: Curso - Softskill
 tags:
   - design-instrucional
-  - carreira
+  - cibersegurança
 author: alessandro souza eugenio
 paginate: true
 ---
