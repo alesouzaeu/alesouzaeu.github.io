@@ -3,14 +3,14 @@ name: Alesouzaeu
 title: Alesouzaeu | Educação corporativa e Cientista de Dados
 description: Educação corporativa e Cientista de Dados. Apaixonado por criar experiências de aprendizado personalizadas e baseadas em dados.
 tags:
-  - blog
+  - Projetos
   - template
   - jekyll
   - theme
   - netlify
 show_hero: true
 menu:
-  - title: Home
+  - title: Projetos
     url: /
   - title: Sobre
     url: /about
