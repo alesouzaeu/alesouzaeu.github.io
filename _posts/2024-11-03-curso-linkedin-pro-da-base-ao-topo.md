@@ -6,7 +6,7 @@ subtitle: Curso para ensinar alunos a utilizarem um software.
 description: Objetivo - Ensinar os alunos a criarem um perfil no linkedin que seja capaz de atrair recrutadores e aumentar suas chances de ser chamado para uma entrevista de emprego
 image: https://framerusercontent.com/images/Grz3bHFV898YPiR1uKgkfj3EQM.jpg?scale-down-to=1024
 optimized_image: https://framerusercontent.com/images/Grz3bHFV898YPiR1uKgkfj3EQM.jpg?scale-down-to=1024
-category: blog
+category: projetos
 tags:
   - linkedin
   - carreira
