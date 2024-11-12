@@ -4,8 +4,8 @@ layout: post
 title: Curso - Introdução aos Modos Gregos - Para guitarristas
 subtitle: Curso para guitarristas iniciantes que necessitam aumentar seu repertório musical e aprimorar a criatividade
 description: Objetivo - Ensinar guitarristas iniciantes que querem ser introduzidos aos modos gregos
-image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/Modos%20Gregos-tela-inicial.jpg
-optimized_image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/Modos%20Gregos-tela-inicial.jpg scale-down-to=1024
+image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/Modos%20Gregos-tela-inicial.jpg?scale-down-to=1024
+optimized_image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/Modos%20Gregos-tela-inicial.jpg?scale-down-to=1024
 category: projetos
 tags:
   - design-instrucional
