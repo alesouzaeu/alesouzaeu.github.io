@@ -13,8 +13,7 @@ tags:
 author: alessandro souza eugenio
 paginate: true
 ---
-
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thomas A. Anderson" width="200">
+
 
 # Sobre mim
 
