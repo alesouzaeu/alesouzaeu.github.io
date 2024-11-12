@@ -4,8 +4,8 @@ layout: post
 title: Soluções personalizadas para o desenvolvimento de sua equipe
 subtitle: Seu parceiro estratégico em educação corporativa. Transformando conhecimento em resultados.
 description: Meu propósito
-image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/12.jpg
-optimized_image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/12.jpg scale-down-to=1024
+image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/12.jpg?scale-down-to=1024
+optimized_image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/12.jpg?scale-down-to=1024
 category: projetos
 tags:
   - design-instrucional
