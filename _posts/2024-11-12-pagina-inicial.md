@@ -6,12 +6,12 @@ subtitle:Seu parceiro estratégico em educação corporativa. Transformando conh
 description: Meu propósito
 image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/12.jpg
 optimized_image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/12.jpgscale-down-to=1024
-category: Quem Sou Eu
+category: sobre-mim
 tags:
   - design-instrucional
   - educação-corporativa
 author: alessandro souza eugenio
-paginate: false
+paginate: true
 ---
 
 # Curso - Segurança Cibernética para Leigos: Como se proteger dos hackers
