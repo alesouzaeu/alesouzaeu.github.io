@@ -2,10 +2,10 @@
 date: 2024-11-12 22:41:00
 layout: post
 title: Soluções personalizadas para o desenvolvimento de sua equipe
-subtitle:Seu parceiro estratégico em educação corporativa. Transformando conhecimento em resultados.
+subtitle: Seu parceiro estratégico em educação corporativa. Transformando conhecimento em resultados.
 description: Meu propósito
 image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/12.jpg
-optimized_image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/12.jpgscale-down-to=1024
+optimized_image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/12.jpg scale-down-to=1024
 category: sobre-mim
 tags:
   - design-instrucional
