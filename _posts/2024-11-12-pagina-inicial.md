@@ -6,7 +6,7 @@ subtitle: Seu parceiro estratégico em educação corporativa. Transformando con
 description: Meu propósito
 image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/12.jpg
 optimized_image: https://raw.githubusercontent.com/alesouzaeu/alesouzaeu.github.io/refs/heads/main/assets/img/uploads/12.jpg scale-down-to=1024
-category: sobre-mim
+category: projetos
 tags:
   - design-instrucional
   - educação-corporativa
