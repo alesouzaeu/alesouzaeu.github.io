@@ -1,5 +1,5 @@
 ---
-date: 2024-11-12 22:41:00
+date: 2024-11-11 23:14:00
 layout: post
 title: Soluções personalizadas para o desenvolvimento de sua equipe
 subtitle: Seu parceiro estratégico em educação corporativa. Transformando conhecimento em resultados.
