@@ -11,7 +11,7 @@ tags:
   - design-instrucional
   - educação-corporativa
 author: alessandro souza eugenio
-paginate: false
+paginate: true
 ---
 
 <img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thomas A. Anderson" width="200">
