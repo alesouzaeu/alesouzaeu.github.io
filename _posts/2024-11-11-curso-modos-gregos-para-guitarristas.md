@@ -20,10 +20,9 @@ paginate: true
 
 ## Protótipo: PODCAST
 
-<div style="text-align: center;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/mmfMC0N3htY?si=mGK0pmcfjI25_ZNq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"   
- referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mmfMC0N3htY?si=mGK0pmcfjI25_ZNq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;   
+ picture-in-picture; web-share" allowfullscreen></iframe>   
+
 
 ## Público-alvo
 
