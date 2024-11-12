@@ -8,7 +8,7 @@ image: https://framerusercontent.com/images/Grz3bHFV898YPiR1uKgkfj3EQM.jpg?scale
 optimized_image: https://framerusercontent.com/images/Grz3bHFV898YPiR1uKgkfj3EQM.jpg?scale-down-to=1024
 category: projetos
 tags:
-  - linkedin
+  - design-instrucional
   - carreira
 author: alessandro souza eugenio
 paginate: true
